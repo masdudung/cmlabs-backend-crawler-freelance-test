@@ -1,0 +1,14 @@
+{
+    "apps": [
+        {
+            "name": "web-crawl",
+            "script": "index.js",
+            "watch": true,
+            "ignore_watch": [
+                "node_modules"
+            ],
+            "instances": 1,
+            "exec_mode": "cluster"
+        }
+    ]
+}
