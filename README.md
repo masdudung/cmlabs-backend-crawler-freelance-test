@@ -9,15 +9,20 @@ this app will mapping all the link in the first page, and recursive crawll all t
 make sure you have install it before
 
 #2 change site in .env
-site is target we want to crawl 
+- site is target we want to crawl 
 
 #3 set page limit
-as default will crawl first page and mapping the link, 
-you can limit the number of the link we want crawled
+-as default will crawl first page and mapping the link, you can limit the number of the link we want crawled
 
 
 #npm install
 #npm start
+
+----------------------------------
+what we can improve in next update
+- filter url that contain #blablabla, curently mark as diferent link
+- save result in diferent folder based on the site domain
+- modify link, that we can navigate in result file
 
 
 
